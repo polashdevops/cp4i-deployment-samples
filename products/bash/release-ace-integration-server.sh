@@ -28,7 +28,7 @@
 
 tick="\xE2\x9C\x85"
 cross="\xE2\x9D\x8C"
-namespace="cp4i"
+namespace="demo"
 is_image_name=""
 is_release_name="ace-is"
 tracing_enabled="false"
