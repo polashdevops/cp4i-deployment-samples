@@ -36,17 +36,17 @@ function usage() {
 
 # default vars
 CURRENT_DIR=$(dirname $0)
-NAMESPACE="cp4i"
+NAMESPACE="demo"
 BRANCH="main"
-REPO="https://github.com/IBM/cp4i-deployment-samples.git"
+REPO="https://github.com/polashdevops/cp4i-deployment-samples.git"
 TICK="\xE2\x9C\x85"
 CROSS="\xE2\x9D\x8C"
 ALL_DONE="\xF0\x9F\x92\xAF"
 INFO="\xE2\x84\xB9"
 SUM=0
 MISSING_PARAMS="false"
-DEFAULT_FILE_STORAGE="ibmc-file-gold-gid"
-DEFAULT_BLOCK_STORAGE="cp4i-block-performance"
+DEFAULT_FILE_STORAGE="ocs-storagecluster-cephfs"
+DEFAULT_BLOCK_STORAGE="gp2"
 
 while getopts "n:r:b:f:g:" opt; do
   case ${opt} in
