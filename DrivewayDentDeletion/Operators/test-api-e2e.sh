@@ -34,7 +34,7 @@ function usage() {
 CURRENT_DIR=$(dirname $0)
 TICK="\xE2\x9C\x85"
 CROSS="\xE2\x9D\x8C"
-NAMESPACE="cp4i"
+NAMESPACE="demo"
 APIC=false
 os_sed_flag=""
 POSTGRES_NAMESPACE=
