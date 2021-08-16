@@ -41,7 +41,7 @@ function divider() {
   echo -e "\n-------------------------------------------------------------------------------------------------------------------\n"
 }
 
-NAMESPACE="cp4i"
+NAMESPACE="demo"
 RETRY_INTERVAL=5
 APIC=false
 TABLE_CLEANUP=false
