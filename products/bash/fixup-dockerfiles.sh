@@ -26,7 +26,7 @@ function usage() {
   echo "Usage: $0 -n <namespace>"
 }
 
-namespace="cp4i"
+namespace="demo"
 
 while getopts "n:" opt; do
   case ${opt} in
