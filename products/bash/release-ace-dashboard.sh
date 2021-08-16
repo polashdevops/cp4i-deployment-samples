@@ -25,9 +25,9 @@
 
 
 dashboard_release_name="ace-dashboard-demo"
-namespace="cp4i"
+namespace="demo"
 production="false"
-storage="ibmc-file-gold-gid"
+storage="ocs-storagecluster-cephfs"
 CURRENT_DIR=$(dirname $0)
 
 function usage() {
