@@ -29,7 +29,7 @@
 
 tick="\xE2\x9C\x85"
 cross="\xE2\x9D\x8C"
-namespace="cp4i"
+namespace="demo"
 release_name="mq-demo"
 qm_name="QUICKSTART"
 tracing_namespace=""
